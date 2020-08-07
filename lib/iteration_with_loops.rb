@@ -9,7 +9,6 @@ def find_min_in_nested_arrays(src)
     while element_index>src[row_index].count do
       src[element_index][row_index]<smallest_daily_value
         smallest_daily_value=src[row_index][element_index]
-      
     end
     element_index+=1 
   end 
